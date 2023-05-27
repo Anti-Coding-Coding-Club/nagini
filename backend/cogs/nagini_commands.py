@@ -9,7 +9,7 @@ from datetime import datetime
 
 from backend.misc.config import Config
 
-with open('./backend/misc/data.data.json') as file:
+with open('./backend/misc/data.json') as file:
     data = json.load(file)
 
 
