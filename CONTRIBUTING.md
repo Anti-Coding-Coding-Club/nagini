@@ -1,20 +1,20 @@
 # Contributors Guide
 
 interested in contributing? awesome! before you do though, please read our
-[code of conduct](https://github.com/mmaachado/template/blob/main/CODE_OF_CONDUCT.md). we take it very seriously, and expect that you will as
+[code of conduct](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CODE_OF_CONDUCT.md). we take it very seriously, and expect that you will as
 well.
 
 there are many ways you can contribute! 💕
 
 ### 🐞 bug reports and fixes 
--  if you find a bug, please search for it in the [issues](https://github.com/mmaachado/template/issues), and if it isn't already tracked,
-   [create a new issue](https://github.com/mmaachado/template/issues/new). fill out the "bug report" section of the issue template. even if an issue is closed, feel free to comment and add details, it will still
+-  if you find a bug, please search for it in the [issues](https://github.com/Anti-Coding-Coding-Club/nagini/issues), and if it isn't already tracked,
+   [create a new issue](https://github.com/Anti-Coding-Coding-Club/nagini/issues/new). fill out the "bug report" section of the issue template. even if an issue is closed, feel free to comment and add details, it will still
    be reviewed.
 -  issues that have already been identified as a bug (note: able to reproduce) will be labelled `🐞 bug`.
 -  if you'd like to submit a fix for a bug, [send a pull request](#creating_a_pull_request) and mention the issue number.
 
 ### 💡 new features
--  if you'd like to add new functionality to this project, describe the problem you want to solve in a [new issue](https://github.com/mmaachado/template/issues/new).
+-  if you'd like to add new functionality to this project, describe the problem you want to solve in a [new issue](https://github.com/Anti-Coding-Coding-Club/nagini/issues/new).
 -  issues that have been identified as a feature request will be labelled `💡 enhancement`.
 -  if you'd like to implement the new feature, please wait for feedback from the project
    maintainers before spending too much time writing the code. In some cases, `💡 enhancement`'s may
@@ -24,7 +24,7 @@ there are many ways you can contribute! 💕
 -  if you have an alternative implementation of something that may have advantages over the way its currently
    done, or you have any other change, we would be happy to hear about it!
   -  if its a trivial change, go ahead and [send a pull request](#creating_a_pull_request) with the changes you have in mind.
-  -  if not, [open an issue](https://github.com/mmaachado/template/issues/new) to discuss the idea first.
+  -  if not, [open an issue](https://github.com/Anti-Coding-Coding-Club/nagini/issues/new) to discuss the idea first.
 
 if you're new to our project and looking for some way to make your first contribution, look for
 issues labelled `good first issue`.

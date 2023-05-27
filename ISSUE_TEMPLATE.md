@@ -15,8 +15,8 @@ describe your issue here.
 <br/>
 
 ### 📌 requirements (place an `x` in each of the `[ ]`)
-* [ ] I've read and understood the [contributing guidelines](https://github.com/mmaachado/template/blob/master/CONTRIBUTING.md) and have done my best effort to follow them.
-* [ ] I've read and agree to the [code of conduct](https://github.com/mmaachado/template/blob/master/CODE_OF_CONDUCT.md).
+* [ ] I've read and understood the [contributing guidelines](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CONTRIBUTING.md) and have done my best effort to follow them.
+* [ ] I've read and agree to the [code of conduct](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CODE_OF_CONDUCT.md).
 * [ ] I've searched for any related issues and avoided creating a duplicate issue.
 
 ---

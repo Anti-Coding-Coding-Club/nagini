@@ -1,98 +1,76 @@
-![](assets/header.jpg)
+![](assets/header.png)
 
 <p align="center">
-  <img src="https://shields.io/badge/python-3.11.2-3776AB?logo=python&style=flat">
-  <img src="https://shields.io/badge/django-4.1.7-092E20?logo=django&style=flat">
-  <img src="https://shields.io/badge/flask-2.2.3-000000?logo=flask&style=flat">
-  <img src="https://shields.io/badge/fastapi-0.95.0-009688?logo=fastapi&style=flat">
+<p align="center">
+    <img src="https://shields.io/badge/python-3.11.2-3776AB?logo=python&style=flat">
+   <img src="https://shields.io/badge/pycord-2.4.1-5865F2?logo=discord&style=flat">
 </p>
-
+</p>
 
 <p align="center">
-    <a href="#-features">features</a>
-  • <a href="#-installation">installation</a>
-  • <a href="#-usage">usage</a>
-  • <a href="#️-contributing">contributing</a>
+    <a href="#-features">Features</a>
+  • <a href="#-installation">Installation</a>
+  • <a href="#-usage">Usage</a>
+  • <a href="#️-contributing">Contributing</a>
 </p>
 
-**🌎 README is available in other languages:  [🇧🇷](translations/README_pt-br.md)**
-
-orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Nagini é uma assistente virtual, criada a partir da necessidade de reproduzir músicas no servidor de Discord, mas com muitos planos pela frente!
 
 ##
-- [🌟 features](#-features)
-- [📲 installation](#-installation)
-- [🐍 usage](#-usage)
-- [❤️ contributing](#️-contributing)
-- [👨🏻‍💻 author](#-author)
-- [👮🏻 license](#-license)
+
+- [🌟 Features](#-features)
+- [📲 Installation](#-installation)
+- [🐍 Usage](#-usage)
+- [❤️ Contributing](#️-contributing)
+- [👨🏻‍💻 Author](#-author)
+- [👮🏻 License](#-license)
+
+## 🌟 Features
+
+- Funções administrativas (ban, kick, rename);
+- Informações do Server;
+- Envia o Invite do Server;
 
 
+## 📲 Installation
 
-## 🌟 features
-
-* Lorem Ipsum
-* Lorem Ipsum
-* Lorem Ipsum
-* Lorem Ipsum
-* Lorem Ipsum
-* Lorem Ipsum
-
-
-## 📲 installation
-
-```cmd
-git clone https://github.com/mmaachado/template.git
+```bash
+git clone https://github.com/Anti-Coding-Coding-Club/nagini.git
 ```
->📣 **clone the repo**
-
-<br/>
-
-```cmd
-python -m venv env
-```
->📣 **create a venv**
-
-<br/>
-
-```cmd
-.\env\Scripts\Activate.ps1
-```
->📣 **activate the venv**
-
-<br/>
 
 ```python
 pip install -r requirements.txt
 ```
->📣 **install project dependencies**
 
-<br/>
+> 📣 **IMPORTANT!**
+> Nagini está em desenvolvimento, então espere por bugs e crashes...
+>
 
-## 🐍 usage
-
-only **1** steps needed to use:
-
-1️⃣ run
-```python
-python -m main.py
+## 🐍 Usage
+Use o comando abaixo no seu terminal:
+```bash
+python nagini.py
 ```
 
-## ❤️ contributing
-this is an open source project, so feel free to contribute. how?
-- open an [issue](https://github.com/mmaachado/template/issues).
-- propose your own fixes, suggestions and open a pull request with the changes.
-see [all contributors](https://github.com/mmaachado/template/graphs/contributors)
-for more information, please read the [contributing guidelines](https://github.com/mmaachado/template/blob/master/CONTRIBUTING.md).
+## ❤️ Contributing
 
-## 👨🏻‍💻 author
-[Marcelo Machado](http://www.twitter.com/hayashilol1)
+Este é um projeto open-source, então sinta-se livre para contribuir.
 
-## 👮🏻 license
+- Abra uma [issue](https://github.com/Anti-Coding-Coding-Club/nagini/issues).
+- Proponha suas melhorias, correções, sugestões e abra uma pull request com as mudanças.
+
+Para mais informação veja as [contributing guidelines](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CONTRIBUTING.md).
+
+## 👨🏻‍💻 Author
+
+- [Marcelo Machado](http://www.twitter.com/shinilol1)
+
+## 👮🏻 License
+
 ```
 MIT License
 
-Copyright (c) 2022 Anti Coding Coding Club
+Copyright (c) 2023 Anti Coding Coding Club
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
