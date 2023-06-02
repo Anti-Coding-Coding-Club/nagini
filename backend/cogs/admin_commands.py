@@ -122,7 +122,7 @@ class NaginiAdminCog(Cog):
             embed = Embed(title='Ih!',
             description='Ocorreu um erro... Verifique se o ID está correto!',
             color=Config.EMBED_COLOR)
-            await context.send
+            await context.send(embed=embed)
 
 
     @slash_command(name='purge', description='Excluo uma quantidade de mensagens do canal de texto.',
@@ -139,16 +139,14 @@ class NaginiAdminCog(Cog):
         """
 
         # Refatorar para uma linha apenas
-        return_msg = 'mensagem'
-        if quantity > 1:
-            return_msg = 'mensagens'
+        return_msg = 'mensagens' if quantity > 1 else 'mensagem'
 
         purged_msg = await context.channel.purge(limit=quantity)
         embed = Embed(title='Hora da faxina! 🧹',
         description=f'**{context.author}** chamou a equipe de limpeza e removeu {quantity} {return_msg}!',
         color=Config.EMBED_COLOR)
 
-        await context.respond(embed=embed)
+        await context.send(embed=embed)
 
 
     @slash_command(name='nick', description='Altero o apelido de um membro do servidor!')
@@ -170,10 +168,10 @@ class NaginiAdminCog(Cog):
             await member.edit(nick=nickname)
             embed = Embed(title='Apelido alterado!',
             description=f'**{member}** agora se chama **{nickname}**!', color=Config.EMBED_COLOR)
-            await context.respond(embed=embed)
+            await context.send(embed=embed)
         
         except:
             embed = Embed(title='Oh no! 😐',
             description='Aconteceu um problema ao alterar o apelido... Verifique se meu cargo está acima ao do membro.',
             color=Config.EMBED_COLOR)
-            await context.respond(embed=embed)
+            await context.send(embed=embed)
