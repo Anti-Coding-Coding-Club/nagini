@@ -2,6 +2,9 @@ from discord import slash_command, Interaction, Embed, ApplicationContext, User
 from discord.ext.commands import Cog, Bot
 from discord.ext import commands
 from backend.misc.config import Config
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 class NaginiAdminCog(Cog):
@@ -43,7 +46,8 @@ class NaginiAdminCog(Cog):
                 try:
                     await member.send(f'Você foi removido port **{context.author}**!\nPelo motivo: {reason} 🕵🏻‍♀️')
                 
-                except Exception:
+                except Exception as e:
+                    logger.warn(str(e))
                     pass
                 await member.kick(reason=reason)
 
@@ -86,7 +90,8 @@ class NaginiAdminCog(Cog):
                 try:
                     await member.send(f'Você foi banido por **{context.author}**\nMotivo: {reason}')
 
-                except Exception: 
+                except Exception as e:
+                    logger.warn(str(e)) 
                     pass
                 await member.ban(reason=reason)
 
@@ -141,7 +146,7 @@ class NaginiAdminCog(Cog):
         # Refatorar para uma linha apenas
         return_msg = 'mensagens' if quantity > 1 else 'mensagem'
 
-        purged_msg = await context.channel.purge(limit=quantity)
+        await context.channel.purge(limit=quantity)
         embed = Embed(title='Hora da faxina! 🧹',
         description=f'**{context.author}** chamou a equipe de limpeza e removeu {quantity} {return_msg}!',
         color=Config.EMBED_COLOR)
@@ -151,7 +156,7 @@ class NaginiAdminCog(Cog):
 
     @slash_command(name='nick', description='Altero o apelido de um membro do servidor!')
     @commands.has_permissions(manage_nicknames=True)
-    async def nick_command(self, context: ApplicationContext, user: User, *, nickname: str = None) -> None:
+    async def nick_command(self, context: ApplicationContext, user: User, *, nickname: str = '') -> None:
         """
         Nagini altera o apelido de um usuário do servidor.
 
