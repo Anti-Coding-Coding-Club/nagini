@@ -2,10 +2,12 @@ import discord
 import platform
 from discord import slash_command, Interaction, Embed, ApplicationCommand
 from discord.ext.commands import Cog, Bot
-import datetime
 import random
 import json
-from datetime import datetime
+import datetime
+import logging
+
+logger = logging.getLogger(__name__)
 
 from backend.misc.config import Config
 
@@ -20,7 +22,7 @@ class NaginiCommandsCog(Cog):
 
     @slash_command(name='info', description='Informações gerais...')
     async def info_command(self, interaction: Interaction) -> None:
-        now = datetime.today()
+        now = datetime.datetime.today()
         nagini_bday = '06-08-2022'
 
         embed = Embed(title='Minhas informações pessoais', color=Config.EMBED_COLOR)
@@ -35,10 +37,9 @@ class NaginiCommandsCog(Cog):
 
         await interaction.respond(embed=embed)
 
-
     @slash_command(name='serverinfo', description='Informações gerais do servidor.')
     async def server_command(self, context: ApplicationCommand) -> None:
-        now = datetime.today()
+        now = datetime.datetime.today()
         server_bday = context.guild.created_at.strftime('%d-%m-%Y')
 
         roles = [role.name for role in context.guild.roles]

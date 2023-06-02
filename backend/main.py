@@ -8,6 +8,20 @@ import os
 import logging
 import dotenv
 
+logger = logging.getLogger("nagini")
+logger.setLevel(logging.DEBUG)
+
+for handler in logger.handlers:
+    logger.removeHandler(handler)
+
+console_handle = logging.StreamHandler()
+console_handle.setLevel(logging.DEBUG)
+
+formatter = logging.Formatter("%(asctime)s.%(msecs)03d - %(levelname)-2s  [%(filename)s:%(lineno)s - %(funcName)3s() ] %(message)s")
+console_handle.setFormatter(formatter)
+
+logger.addHandler(console_handle)
+
 dotenv.load_dotenv()
 token = str(os.getenv("TOKEN"))
 
@@ -22,7 +36,7 @@ class Nagini(Bot):
         super().__init__(intents=Intents.all())
 
     def run(self):
-        print('[*] Iniciando. . .')
+        logger.info('[*] Iniciando. . .')
         self.load_extension('backend.cogs')
 
         super().run(token, reconnect=True)
@@ -36,7 +50,7 @@ class Nagini(Bot):
         
         except: pass
 
-        print(f'[*] Nagini online (lantencia: {self.latency*1000:,.0f} ms)')
-        print(f'[*] Python: {platform.python_version()}')
-        print(f'[*] Rodando em: {platform.system()}, {platform.release()}, {os.name}')
-        print('--------------------------')
+        logger.info(f'[*] Nagini online (lantencia: {self.latency*1000:,.0f} ms)')
+        logger.info(f'[*] Python: {platform.python_version()}')
+        logger.info(f'[*] Rodando em: {platform.system()}, {platform.release()}, {os.name}')
+        logger.info('--------------------------')
