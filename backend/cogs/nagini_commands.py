@@ -59,7 +59,7 @@ class NaginiCommandsCog(Cog):
         embed.add_field(name=f'Invite:', value='https://discord.gg/qhdD4eVfmb', inline=False)
         embed.set_footer(text=f'Criado em: {context.guild.created_at.strftime("%d-%m-%Y")}')
         
-        if now.strftime('%d-%m-%Y') == server_bdy:
+        if now.strftime('%d-%m-%Y') == server_bday:
             embed.add_field(name='Hoje é aniversário do servidor!', value='🥳 🎊', inline=False)
 
         await context.respond(embed=embed)
