@@ -6,6 +6,6 @@ class Config(abc.ABC):
     """
 
 
-    NAGINI_VERSION = '2.0'
+    NAGINI_VERSION = '2.0.1'
     NAGINI_LOGO_URL = 'https://preview.redd.it/76h72zxnc3a51.jpg?auto=webp&s=b9190c5ac58b2e92c3062841132e5141202946f1'
     EMBED_COLOR = discord.Colour.dark_purple()
