@@ -1,12 +1,13 @@
-###  📄 summary
+###  📄 resumo
 
-describe the goal of this PR. mention any related issue numbers.
+descreva o objetivo deste PR. mencione qualquer issue relacionada.
 
 <br/>
 
-### 📌 requirements (place an `x` in each `[ ]`)
+### 📌 requisitos (marque um `x` em cada `[ ]`)
 
-* [ ] I've read and understood the [contributing guidelines](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CONTRIBUTING.md) and have done my best effort to follow them.
-* [ ] I've read and agree to the [code of conduct](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CODE_OF_CONDUCT.md).
 
-* [ ] I've written tests to cover the new code and functionality included in this PR.
+* [ ] Li e entendi o [guia de contribuição](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CONTRIBUTING.md) e dei o meu melhor para segui-lo.
+* [ ] Eu li e concordei com o [código de conduta](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CODE_OF_CONDUCT.md).
+
+* [ ] Eu fiz testes ou debuguei para garantir o funcionamento das novas implementações neste PR.

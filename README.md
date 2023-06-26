@@ -9,9 +9,9 @@
 
 <p align="center">
     <a href="#-features">Features</a>
-  • <a href="#-installation">Installation</a>
-  • <a href="#-usage">Usage</a>
-  • <a href="#️-contributing">Contributing</a>
+  • <a href="#-installation">Instalação</a>
+  • <a href="#-usage">Uso</a>
+  • <a href="#️-contributing">Contribuindo</a>
 </p>
 
 Nagini é uma assistente virtual, criada a partir da necessidade de reproduzir músicas no servidor de Discord, mas com muitos planos pela frente!
@@ -19,11 +19,11 @@ Nagini é uma assistente virtual, criada a partir da necessidade de reproduzir m
 ##
 
 - [🌟 Features](#-features)
-- [📲 Installation](#-installation)
-- [🐍 Usage](#-usage)
-- [❤️ Contributing](#️-contributing)
-- [👨🏻‍💻 Author](#-author)
-- [👮🏻 License](#-license)
+- [📲 Instalação](#-instalação)
+- [🐍 Uso](#-uso)
+- [❤️ Contribuindo](#️-contribuindo)
+- [👨🏻‍💻 Autor](#-autor)
+- [👮🏻 Licença](#-licença)
 
 ## 🌟 Features
 
@@ -32,40 +32,60 @@ Nagini é uma assistente virtual, criada a partir da necessidade de reproduzir m
 - Envia o Invite do Server;
 
 
-## 📲 Installation
+## 📲 Instalação
 
+<br/>
+
+Clone o repositório na sua máquina
 ```bash
 git clone https://github.com/Anti-Coding-Coding-Club/nagini.git
 ```
+
+Crie uma venv
+```python
+python -m venv env
+```
+
+Ative sua venv (🪟 Windows)
+```bash
+.\env\Scripts\Activate.ps1
+```
+
+Ative sua venv (🐧 Linux / 🍎 macOS)
+```zsh
+env/bin/activate
+```
+
+Instale as dependencias do projeto
 
 ```python
 pip install -r requirements.txt
 ```
 
-> 📣 **IMPORTANT!**
+> 📣 **IMPORTANTE!**
 > Nagini está em desenvolvimento, então espere por bugs e crashes...
 >
 
-## 🐍 Usage
+## 🐍 Uso
 Use o comando abaixo no seu terminal:
 ```bash
 python nagini.py
 ```
 
-## ❤️ Contributing
+## ❤️ Contribuindo
 
 Este é um projeto open-source, então sinta-se livre para contribuir.
 
 - Abra uma [issue](https://github.com/Anti-Coding-Coding-Club/nagini/issues).
 - Proponha suas melhorias, correções, sugestões e abra uma pull request com as mudanças.
 
-Para mais informação veja as [contributing guidelines](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CONTRIBUTING.md).
+Para mais informação veja o [guia de contribuição](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CONTRIBUTING.md).
 
-## 👨🏻‍💻 Author
+## 👨🏻‍💻 Autor
 
 - [Marcelo Machado](http://www.twitter.com/shinilol1)
 
-## 👮🏻 License
+## 👮🏻 Licença
 
 ```
 MIT License

@@ -1,77 +1,57 @@
-# Contributors Guide
+# Guia de Contribuição
 
-interested in contributing? awesome! before you do though, please read our
-[code of conduct](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CODE_OF_CONDUCT.md). we take it very seriously, and expect that you will as
-well.
+Quer contribuir? Perfeito! Mas antes de fazê-lo, por favor leia nosso [código de conduta](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CODE_OF_CONDUCT.md). Nós o levamos bem a sério, e esperamos que você também.
 
-there are many ways you can contribute! 💕
+Há diversas formas de você contribuir! 💕
 
-### 🐞 bug reports and fixes 
--  if you find a bug, please search for it in the [issues](https://github.com/Anti-Coding-Coding-Club/nagini/issues), and if it isn't already tracked,
-   [create a new issue](https://github.com/Anti-Coding-Coding-Club/nagini/issues/new). fill out the "bug report" section of the issue template. even if an issue is closed, feel free to comment and add details, it will still
-   be reviewed.
--  issues that have already been identified as a bug (note: able to reproduce) will be labelled `🐞 bug`.
--  if you'd like to submit a fix for a bug, [send a pull request](#creating_a_pull_request) and mention the issue number.
+### 🐞 reportar bugs e ajustes
+- se você encontrar um bug, por favor procure nas [issues](https://github.com/Anti-Coding-Coding-Club/nagini/issues), e se já não tiver sido rastreado,
+   [crie uma nova issue](https://github.com/Anti-Coding-Coding-Club/nagini/issues/new). Preencha a sessão "bug report" do template. Mesmo se a issue estiver fechada, sinta-se livre para comentar e adicionar detalhes, ainda iremos revisar.
+- issues que já forem identificadas como bug (nota: cenário possível de reproduzir) serão marcadas como `bug`.
+- Se você quer enviar um ajuste para algum bug, [crie um pull request](#criando-um-pull-request) e mencione o número da issue.
 
-### 💡 new features
--  if you'd like to add new functionality to this project, describe the problem you want to solve in a [new issue](https://github.com/Anti-Coding-Coding-Club/nagini/issues/new).
--  issues that have been identified as a feature request will be labelled `💡 enhancement`.
--  if you'd like to implement the new feature, please wait for feedback from the project
-   maintainers before spending too much time writing the code. In some cases, `💡 enhancement`'s may
-   not align well with the project objectives at the time.
+### 💡 novas features
+- quer adicionar novas funcionalidades no projeto? Ótimo! Descreva o problema que quer solucionar em uma [nova issue](https://github.com/Anti-Coding-Coding-Club/nagini/issues/new)
+- issues identificadas como melhorias serão marcadas como `enhancement`.
+- se você quiser implementar a nova feature, por favor aguarde o feedback dos mainteiners antes de gastar tempo escrevendo linhas de código. Em alguns casos, `enhancement`'s não estão bem alinhados com os objetivos do projeto atualmente.
+- ah! Se for autorizado a criar uma branch, crie ela a partir da `development`, nunca direto da `master`!
 
-### ✨ miscellaneous
--  if you have an alternative implementation of something that may have advantages over the way its currently
-   done, or you have any other change, we would be happy to hear about it!
-  -  if its a trivial change, go ahead and [send a pull request](#creating_a_pull_request) with the changes you have in mind.
-  -  if not, [open an issue](https://github.com/Anti-Coding-Coding-Club/nagini/issues/new) to discuss the idea first.
+### ✨ outros
+- se você tiver uma alternativa para melhorar a forma como desenvolvemos hoje, ficariamos felizes em ouvir sobre!
+- se for uma alteração trivial, vá em frente e [envie um pull request](#criando-um-pull-request) com as alterações que você tiver em mente.
+- caso contrário [abra uma issue](https://github.com/Anti-Coding-Coding-Club/nagini/issues/new) para discutir a ideia primeiro.
 
-if you're new to our project and looking for some way to make your first contribution, look for
-issues labelled `good first issue`.
+Se você for novo no projeto e estiver procurando por alguma forma de fazer a sua primeira contribuição, procure pelas issues marcadas como `good first issue`.
 
-## 📌 requirements
+## 📌 requisitos
 
-for your contribution to be accepted:
+para sua contribuição ser aceita:
 
-- [x] the changes must be approved by code review.
-- [x] commits should be atomic and messages must be descriptive. related issues should be mentioned by issue number.
+- [x] as alterações devem ser aprovadas por algum maintainer.
+- [x] commits devem conter títulos e mensagens descritivas.
+- [x] a branch deve partir da `development` e nunca deve ser enviado direto para a `master`.
 
-if the contribution doesn't meet the above criteria, you may fail our automated checks or a maintainer will discuss it with you. you can continue to improve a pull request by adding commits to the branch from which the PR was created.
+Se a contribuição não atender os critérios acima, o seu PR não será aprovado e algum maintainer irá discutir com você. Você pode continuar contribuindo para melhorar o PR adicionando commits para a branch que foi criada.
 
-## 🧪 creating a pull request
+## 🧪 criando um pull request
 
-1.  🍴 fork the repository on GitHub.
-2.  🔗 clone/fetch your fork to your local development machine.
-3.  ✔️ create a new branch and check it out.
-4.  🔮 make your changes and commit them locally.
-5.  📤 push your new branch to your fork. (e.g. `git push mmaachado fix-issue-300`).
-6.  📪 open a pull request on github.com from your new branch on your fork to `master` in this
-    repository.
+1.  🔗 clone o projeto na sua máquina local.
+2.  ✔️ crie uma branch a partir da `development` identificando o número da issue, o tipo de alteração e o titulo da issue. ( ex: `1-bug-application-did-not-respond-error-message`)
+3.  🔮 faça suas alterações, teste e commite localmente.
+4.  📤 push sua nova branch. ( ex: `git push anticodingcodingclub fix-issue-1`).
+5.  📪 abra uma pull request no GitHub da sua branch para a `development` neste repositório.
+6.  ⌛️ aguarde avaliarmos sua alteração e subirmos junto com as demais na próxima release.
 
-## Developer's Certificate of Origin 1.1
+## Certificado de Originalidade do Desenvolvedor 1.1
 
-By making a contribution to this project, I certify that:
+Ao contribuir neste projeto, certifico que:
 
-- (a) The contribution was created in whole or in part by me and I
-      have the right to submit it under the open source license
-      indicated in the file; or
+- (a) A contribuição foi criada no todo ou em parte por mim, e eu: tenho os direitos para divulgá-la sob a licença de código aberto indicada no arquivo; ou
 
-- (b) The contribution is based upon previous work that, to the best
-      of my knowledge, is covered under an appropriate open source
-      license and I have the right under that license to submit that
-      work with modifications, whether created in whole or in part
-      by me, under the same open source license (unless I am
-      permitted to submit under a different license), as indicated
-      in the file; or
+- (b) A contribuição é baseada em trabalhos anteriores que, no melhor do meu conhecimento, é protegida sob uma licença de código aberto apropriada e tenho direito sob essa licença de enviar contribuições com modificações, podendo ou não serem criadas no todo ou em parte por mim, sob a mesma licença de código aberto (a menos que esteja autorizado a enviar sob uma licença diferente), conforme indicada no arquivo; ou
 
-- (c) The contribution was provided directly to me by some other
-      person who certified (a), (b) or (c) and I have not modified
-      it.
+- (c) A contribuição foi fornecida diretamente a mim por alguma outra pessoa certificada nos itens (a) ou (b) e eu não a modifiquei.
 
-- (d) I understand and agree that this project and the contribution
-      are public and that a record of the contribution (including all
-      personal information I submit with it, including my sign-off) is
-      maintained indefinitely and may be redistributed consistent with
-      this project or the open source license(s) involved.
+- (d) Entendo e concordo que este projeto e suas contribuições são públicas e que um registro da contribuição (inclusive todas as informações pessoais que envio com ele, incluindo minha assinatura) é mantido indefinidamente e pode ser redistribuído de acordo com este projeto ou as licenças de código aberta envolvidas.
 
-*Wording of statement copied from [elinux.org](http://elinux.org/Developer_Certificate_Of_Origin)*
+*Texto da declaração referenciada da [elinux.org](http://elinux.org/Developer_Certificate_Of_Origin)*

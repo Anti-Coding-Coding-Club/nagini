@@ -1,41 +1,44 @@
-### ✏️ description
+### ✏️ descrição
 
-describe your issue here.
+descreva aqui a sua issue.
 
 <br/>
 
-### 🔍 what type of issue is this? (place an `x` in one of the `[ ]`)
+### 🔍 que tipo de issue é? (marque um `x` em cada `[ ]` relacionado a issue)
 - [ ] bug
 - [ ] enhancement (feature request)
 - [ ] question
-- [ ] documentation related
-- [ ] testing related
+- [ ] documentation
 - [ ] discussion
+- [ ] help wanted
+- [ ] good first issue
+- [ ] invalid
 
 <br/>
 
-### 📌 requirements (place an `x` in each of the `[ ]`)
-* [ ] I've read and understood the [contributing guidelines](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CONTRIBUTING.md) and have done my best effort to follow them.
-* [ ] I've read and agree to the [code of conduct](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CODE_OF_CONDUCT.md).
-* [ ] I've searched for any related issues and avoided creating a duplicate issue.
+### 📌 requisitos (marque um `x` em cada `[ ]`)
+
+* [ ] Li e entendi o [guia de contribuição](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CONTRIBUTING.md) e dei o meu melhor para segui-lo.
+* [ ] Eu li e concordei com o [código de conduta](https://github.com/Anti-Coding-Coding-Club/nagini/blob/master/CODE_OF_CONDUCT.md).
+* [ ] Eu procurei por alguma issue relacionada e evitei criar issues duplicadas.
 
 ---
 
 ### 🐞 bug report
 
-filling out the following details about bugs will help us solve your issue sooner.
+preencher os detalhes abaixo sobre o bug nos ajudará a resolver sua issue mais rápido.
 
 <br/>
 
-#### ⚙️ reproducible in:
+#### ⚙️ reprduzivel em:
 
-python version:
+versão do python:
 
-project version:
+versão do projeto:
 
 <br/>
 
-#### 🔬 steps to reproduce:
+#### 🔬 passos para reproduzir:
 
 1.
 2.
@@ -43,18 +46,18 @@ project version:
 
 <br/>
 
-#### 🤔 expected result:
+#### 🤔 resultado esperado:
 
-what you expected to happen
-
-<br/>
-
-#### 🫣 actual result:
-
-what actually happened
+o que você esperava acontecer.
 
 <br/>
 
-#### 📎 attachments:
+#### 🫣 resultado atual:
 
-logs, screenshots, screencast, sample project, funny gif, etc.
+o que aconteceu
+
+<br/>
+
+#### 📎 anexos:
+
+log, print, gravação, gif engraçado, etc.
