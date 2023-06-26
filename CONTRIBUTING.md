@@ -38,7 +38,7 @@ Se a contribuição não atender os critérios acima, o seu PR não será aprova
 1.  🔗 clone o projeto na sua máquina local.
 2.  ✔️ crie uma branch a partir da `development` identificando o número da issue, o tipo de alteração e o titulo da issue. ( ex: `1-bug-application-did-not-respond-error-message`)
 3.  🔮 faça suas alterações, teste e commite localmente.
-4.  📤 push sua nova branch. ( ex: `git push anticodingcodingclub fix-issue-1`).
+4.  📤 dê um push da sua branch em `development`. ( ex: `git push development 1-bug-application-did-not-respond-error-message`).
 5.  📪 abra uma pull request no GitHub da sua branch para a `development` neste repositório.
 6.  ⌛️ aguarde avaliarmos sua alteração e subirmos junto com as demais na próxima release.
 
