@@ -1,6 +1,16 @@
 ![](assets/header.png)
 
 <p align="center">
+  🚨 <b>ATENÇÃO</b> 🚨
+</p>
+<p align="center">
+  Em <b>27 de Maio de 2022</b> eu havia dito que a release 2.0.1 da Nagini seria a sua maior atualização... Que inocência.
+  Enfim, estou realizando outra grande release... Desta vez muito maior, e muito melhor, com mais recursos, novos padrões e uma documentação digna do projeto.
+  
+  Por isso, se for utilizar a Nagini, utilize sempre a branch `master`, as demais que forem criadas estão sob desenvolvimento.
+</p>
+
+<p align="center">
 <p align="center">
     <img src="https://shields.io/badge/python-3.11.2-3776AB?logo=python&style=flat">
    <img src="https://shields.io/badge/pycord-2.4.1-5865F2?logo=discord&style=flat">
